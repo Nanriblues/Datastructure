@@ -12,7 +12,7 @@ Mention과 user를 연결하는 struct들은 양이 많지 않으므로 굳이 t
 user을 연결하는 linked list의 첫번째 값은 기본적으로 자신의 ID로 고정됩니다.
 읽는 순서에 따라 위에서부터 읽으면 다음과 같이 진행됩니다.
 
-1. word.txt를 읽기
+I. word.txt를 읽기
 
 (1) 네 줄에 한 단위로 싸이클이 진행되게 구성합니다.
 
@@ -29,7 +29,7 @@ user을 연결하는 linked list의 첫번째 값은 기본적으로 자신의 I
 (4)EOF가 나올 때까지 (2)(3)을 반복합니다.
 
 
-2. user.txt 읽기
+II. user.txt 읽기
 
 (1) 네 줄에 한 단위로 싸이클이 진행되게 구성합니다.
 
@@ -37,7 +37,7 @@ user을 연결하는 linked list의 첫번째 값은 기본적으로 자신의 I
     ID값을 찾아서 node에 담긴 ID(char형)공간에 저장하니다.
     
 
-3. friend.txt를 읽기
+III. friend.txt를 읽기
 
 (1) 세줄 에 한 단위로 싸이클이 진행되게 구성합니다.
 
